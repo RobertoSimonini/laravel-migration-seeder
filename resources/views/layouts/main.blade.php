@@ -15,9 +15,9 @@
         Trains: 
     </h1>
 
-    <ul class="list-group d-flex justify-content-center align-items-center flex-wrap">
+    <ul class="list-group">
         @foreach ($trains as $train)
-            <li>
+            <li class="d-flex flex-column w-25 mx-auto">
                 <ul class="mb-4 list-group text-center">
                     <li class="list-group-item">{{$train->Azienda}}</li>
                     <li class="list-group-item">{{$train->Stazione_di_partenza}}</li>
