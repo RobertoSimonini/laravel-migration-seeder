@@ -10,9 +10,9 @@
     @vite('resources/js/app.js')
 
 </head>
-<body>
+<body class="bg-dark">
     <h1 class="text-center text-danger py-4">
-        Trains: 
+        Upcoming Trains: 
     </h1>
 
     <ul class="list-group">
